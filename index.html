@@ -3,19 +3,22 @@
 <!--https://josh123234.github.io/dgmd-e28/-->
 <head>
     <title>Assignment 1</title>
-    <meta name="description" content="homework assingment">
+    <meta name="description" content="homework assignment">
     <meta name="keywords" content="A+, 100%, homework, assigment">
     <style>
         body {
-            background-color: lightgray;
+            background-color: white;
         }
         h1 {
             color: white;
             text-align: center;
         }
+        h2 {
+            color: black;
+            text-align: center;
+        }
         p {
-            font-family: verdana;
-            font-size: 20px;
+            font-size: 14px;
         }
         #my-header {
             text-align:center;
@@ -44,18 +47,18 @@
 </header>
 <main>
 <section>
-    <h1>About Me</h1>
+    <h2>About Me</h2>
     <div class="my-flex-box">
         <div class="my-flex-item">
-            <h2>Name</h2>
+            <strong>Name</strong>
             <p>Josh</p>
         </div>
         <div class="my-flex-item">
-            <h2>Grew Up</h2>
+            <strong>Grew Up</strong>
             <p>North shore of Boston</p>
         </div>
         <div class="my-flex-item">
-            <h2>Major</h2>
+            <strong>Major</strong>
             <p>Undergrad: Chemistry, Economics</p>
             <p>Grad: Business</p>
         </div>
@@ -64,29 +67,29 @@
 </section>
 
 <section>
-    <h1>Related Experience</h1>
+    <h2>Related Experience</h2>
     <ul style="list-style-type: none">
         <li><strong><em>Web Development Background</strong></em></li>
             <ol>
-                <li>https://www.sennsocialsciences.com/</li>
-                <li>https://www.guyandthegreasers.com/</li>
+                <li><a href="https://www.sennsocialsciences.com/">Senn Social Sciences</a></li>
+                <li><a href="https://www.guyandthegreasers.com/">Guy and the Greasers</a></li>
             </ol>
         <li><strong><em>Software Development Background</strong></em></li>
             <ol>
-                <li>https://www.lessonsquad.com/</li>
-                <li>https://contests.mapexdrums.com/</li>
+                <li><a href="https://www.lessonsquad.com/">Lesson Squad</a></li>
+                <li><a href="https://contests.mapexdrums.com/">Mapex Contests (via Lesson Squad)</a></li>
             </ol>
     </ul>
     <br />
     <blockquote>I am taking <abbr title="Developing Single Page Web Applications">DGMD E-28</abbr> in order to learn how to build engaging and appealing websites and web applications.<SUP>1</SUP></blockquote>
-    <small><SUP>1</SUP>Website applications are distinct from websites in that they tend to be transactional.</small>
+    <small><SUP>1</SUP>Web applications are distinct from websites in that they tend to be transactional.</small>
 </section>
 
 <section>
-    <h1>Favorites</h1>
+    <h2>Favorites</h2>
     <div class="my-flex-box">
         <div class="my-flex-item">
-            <h2>Place</h2>
+            <strong>Place</strong>
             <a href="images/community-path.jpg">
                 <img src=images/community-path.jpg alt="Community Path" title="Favorite Place" height="100"/>
             </a>
@@ -96,7 +99,7 @@
             </small>
         </div>
         <div class="my-flex-item">
-            <h2>Place</h2>
+            <strong>Place</strong>
             <a href="https://www.yelp.com/biz/marias-place-salem">
                 <img src=images/marias-place.jpg alt="Community Path" title="Favorite Place" height="100"/>
             </a>
@@ -122,8 +125,8 @@
             <td><a href="tel:5555555555">Number redacted for privacy</a></td>
         </tr>
     </table>
-
-<h2>Send me a message (warning: not functional because no server)</h2>
+<br />
+<strong>Send me a message (warning: not functional because no server):</strong>
     <form action='#' method='post'>
         <label>Email:</label> <input type="text" name='contact' id='email'><br /><br />
         <label>Message:</label> <textarea name='message' id='message'></textarea><br /><br />
